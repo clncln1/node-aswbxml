@@ -1,0 +1,25 @@
+{
+	"name": "node-aswbxml",
+	"description": "ActiveSync WBXML Encoder/Decoder",
+	"keywords": [
+		"activesync",
+		"wbxml"
+	],
+	"version": "0.0.1",
+	"license": "MIT",
+	"author": {
+		"name": "Nico Haller",
+		"email": "nico.haller@gmail.com"
+	},
+	"main": "./lib/index.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/clncln1/node-aswbxml"
+	},
+	"bugs": {
+		"url": "https://github.com/clncln1/node-aswbxml/issues"
+	},
+	"homepage": {
+		"url": "https://github.com/clncln1/node-aswbxml"
+	}
+}
