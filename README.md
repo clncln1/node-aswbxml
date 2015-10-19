@@ -9,15 +9,15 @@ npm install aswbxml
 
 ## API (synchronous, will throw)
 
-### encode(data, codePage)
+#### encode(data, codePage)
 
-#### ```data``` xml2json-style formatted object
-#### ```codePage``` code page name (string), e.g.: ```'ActiveSync'```
+```data``` xml2json-style formatted object
+```codePage``` code page name (string), e.g.: ```'ActiveSync'```
 
-### decode(buf, codePage)
+#### decode(buf, codePage)
 
-#### ```buf``` wbxml data (Buffer)
-#### ```codePage``` code page name (string), e.g.: ```'ActiveSync'```
+```buf``` wbxml data (Buffer)
+```codePage``` code page name (string), e.g.: ```'ActiveSync'```
 
 ## Usage (example with xml2json)
 
