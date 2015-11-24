@@ -24,7 +24,7 @@ npm install aswbxml
 
 ```codePage``` code page name (string), e.g.: ```'ActiveSync'```
 
-## Usage (example with xml2json)
+## Usage (example with xml2js)
 
 ```javascript
 var fs = require('fs'),
