@@ -1,7 +1,8 @@
 # aswbxml - ActiveSync WBXML Encoder/Decoder
 
 Simple WBXML encoder and decoder intended for ActiveSync messages.
-Please note that the full WBXML spec is not implemented.
+Supported are tags, codepages, inline strings and opaque data.
+Opaque data however, is only processed during decoding and will be added as base64 encoded CDATA content.
 
 ```
 npm install aswbxml
@@ -12,7 +13,7 @@ npm install aswbxml
 #### encode(data, codePage)
 
 
-```data``` xml2json-style formatted object
+```data``` xml2js-style formatted object
 
 ```codePage``` code page name (string), e.g.: ```'ActiveSync'```
 
@@ -27,7 +28,7 @@ npm install aswbxml
 
 ```javascript
 var fs = require('fs'),
-	xml2json = require('xml2json'),
+	xml2js = require('xml2js'),
 	aswbxml = require('aswbxml');
 
 var contents = fs.readFileSync('./myActiveSyncRequest.xml',
